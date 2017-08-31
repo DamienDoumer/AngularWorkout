@@ -1,0 +1,34 @@
+<!-- <div id="content"> 
+    <h1>{{ article.title }}</h1>
+    <p>{{ article.description }}</p>
+</div> -->
+
+
+<div class="image">
+    <img src="http://placekitten.com/g/400/300" alt="image">
+</div>
+<div class="content">
+    <div class="header">
+        {{ article.title }}
+    </div>
+    <div class="meta">
+      <div class="ui blue small label">
+         <i class="heart icon"></i>
+         <div class="detail">
+             {{article.votes}}
+         </div>
+    </div>
+    </div>
+    <div class="meta date">
+        {{article.date() | date:'medium' }}
+    </div>
+    <div class="meta description">
+        <p>{{ article.description }}</p>
+    </div>
+    <div class="extra">
+        <a href="#" target="_blank" class="ui right floated button primary">
+            REad more
+            <i class="right chevron icon"></i>
+        </a>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.genuitec.eclipse.angularide.feature:1.8.3.201707051836"/>
+		<item value="com.genuitec.eclipse.webclipse.core.feature:1.8.3.201707051836"/>
+		<item value="org.chromium.sdk:0.3.9.201707051829"/>
+		<item value="org.eclipse.egit:4.6.1.201703071140-r"/>
+		<item value="org.eclipse.emf.common:2.12.0.v20160420-0247"/>
+		<item value="org.eclipse.emf.ecore:2.12.0.v20160420-0247"/>
+		<item value="org.eclipse.epp.mpc:1.5.4.v20170222-1941"/>
+		<item value="org.eclipse.help:2.2.2.v20170301-0400"/>
+		<item value="org.eclipse.jdt:3.12.3.v20170301-0400"/>
+		<item value="org.eclipse.jgit:4.6.1.201703071140-r"/>
+		<item value="org.eclipse.jst.common.fproj.enablement.jdt:3.8.0.v201603091933"/>
+		<item value="org.eclipse.jst.enterprise_ui.feature:3.8.0.v201701262139"/>
+		<item value="org.eclipse.platform:4.6.3.v20170301-0400"/>
+		<item value="org.eclipse.rcp:4.6.3.v20170301-0400"/>
+		<item value="org.eclipse.wst.jsdt.feature:2.0.200.v201612211424"/>
+		<item value="org.eclipse.wst.json_ui.feature:1.0.2.v201612232230"/>
+		<item value="org.eclipse.wst.web_ui.feature:3.8.2.v201702270442"/>
+		<item value="org.eclipse.wst.xml_ui.feature:3.8.2.v201702270442"/>
+	</list>
+</section>
