@@ -1,3 +1,14 @@
-<p>
-  login works!
-</p>
+<div class="form-container">
+  <img src="assets/images/lock.svg" id="lock">
+
+    <!-- this says: If the error property is set, then show it! -->
+    <span class="error" *ngIf="error">{{ error }}</span>
+
+  <button (click)="loginFb()" id="fb">Login With Facebook</button><br>
+  <button (click)="loginGoogle()" id="google">Login With Google</button>
+  <!-- Loging in with email calls our created UI. -->
+  <button routerLink="/login-email" id="email">Email</button>
+
+  <!-- IF user doesnt have an account, let him go to the signup page to create an account instead. -->
+  <a routerLink="/signup" routerLinkActive="active" class="alc">No account? <strong>Create one here</strong></a>
+</div>
