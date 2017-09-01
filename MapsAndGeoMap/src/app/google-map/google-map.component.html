@@ -1,0 +1,15 @@
+<div *ngIf="lat && lng">
+
+<agm-map id="map" [latitude]="lat" [longitude]="lng">
+
+  <!-- Add a marker -->
+  <agm-marker [latitude]="lat" [longitude]="lng">
+      <agm-info-window>
+          <h3><strong>Hey Mera Hera!</strong></h3>
+          <p>You are here!</p>
+        </agm-info-window>
+  </agm-marker>
+
+</agm-map>
+
+</div>
