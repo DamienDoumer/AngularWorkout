@@ -4,12 +4,30 @@
 
   <!-- Add a marker -->
   <agm-marker [latitude]="lat" [longitude]="lng">
+    <agm-info-window>
+      <h3><strong>Hey Mera Hera!</strong></h3>
+        <p>You are here!</p>
+      </agm-info-window>
+    </agm-marker>
+
+    <!-- For each locations on the map, tell the user the locations detail -->
+    <agm-marker *ngFor="let marker of markers"
+      [latitude]="marker.location[0]"
+      [longitude]="marker.location[1]"
+      [iconUrl]="'https://cdn1.iconfinder.com/data/icons/designer-s-tools-1/512/Coffee-64.png'">
+
       <agm-info-window>
-          <h3><strong>Hey Mera Hera!</strong></h3>
-          <p>You are here!</p>
+          <h3><strong>Location Details</strong></h3>
+      
+          <!-- Tell the users how far they are from a point which they hit. -->
+          <!-- <p>You are {{ hit.distance | async }} kilometers from this point</p> -->
         </agm-info-window>
-  </agm-marker>
+      
+
+    </agm-marker>
 
 </agm-map>
+
+<sm-segment class="raised">Hello</sm-segment>
 
 </div>

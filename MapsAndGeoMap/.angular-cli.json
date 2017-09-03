@@ -19,9 +19,13 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
-      ],
-      "scripts": [],
+        "styles.css",
+        "../node_modules/ng-semantic/bundles/semantic.min.css"
+    ],
+    "scripts": [
+      "../node_modules/jquery/dist/jquery.min.js",
+      "../node_modules/ng-semantic/bundles/semantic.min.js"
+    ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
